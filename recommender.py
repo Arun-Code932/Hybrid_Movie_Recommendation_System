@@ -5,7 +5,7 @@ if (
     not os.path.exists("models/collaborative_similarity.pkl")
 ):
     import download_models
-    
+
 import pickle
 import requests
 import re
@@ -13,19 +13,19 @@ import re
 from dotenv import load_dotenv
 load_dotenv()
 movies = pickle.load(
-    open("/100_Days_of_ml/Hybrid_Movie_Recommendation_System/models/movies.pkl","rb")
+    open("models/movies.pkl", "rb")
 )
 
 content_similarity = pickle.load(
-    open("/100_Days_of_ml/Hybrid_Movie_Recommendation_System/models/similarity.pkl","rb")
+    open("models/similarity.pkl", "rb")
 )
 
 collaborative_similarity = pickle.load(
-    open("/100_Days_of_ml/Hybrid_Movie_Recommendation_System/models/collaborative_similarity.pkl","rb")
+    open("models/collaborative_similarity.pkl", "rb")
 )
 
 movie_mapping = pickle.load(
-    open("/100_Days_of_ml/Hybrid_Movie_Recommendation_System/models/movie_mapping.pkl","rb")
+      open("models/movie_mapping.pkl", "rb")
 )
 
 API_KEY = os.getenv("TMDB_API_KEY")

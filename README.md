@@ -66,7 +66,7 @@ The project is built with **Python**, **Scikit-Learn**, and **Streamlit** to pro
 ## 🏠 Home Page
 
 ```
-ScreenShots/Homepage.PNG
+![Home Page](ScreenShots/Homepage.PNG)
 ```
 
 ---
@@ -74,27 +74,22 @@ ScreenShots/Homepage.PNG
 ## 🎯 AI Recommendations
 
 ```
-ScreenShots/recommendations.png
+![Recommendations](ScreenShots/recommendations.png)
 ```
 
-##   Multiple Recommendations 
----
-ScreenShots/Multiple_Recomendation.png
----
+## 🎬 Multiple Recommendations
 
-## 🎬 Movie Card
+![Multiple Recommendations](ScreenShots/Multiple_Recomendation.png)
 
-```
-ScreenShots/movie_card.png
-```
+## 🎥 Movie Card
+
+![Movie Card](ScreenShots/movie_card.png)
 
 ---
 
 ## 📖 Story Overview
 
-```
-ScreenShots/overview.png
-```
+![Overview](ScreenShots/overview.png)
 
 ---
 

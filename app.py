@@ -22,8 +22,38 @@ if "theme" not in st.session_state:
 movies = pickle.load(
     open("models/movies.pkl", "rb")
 )
+with st.sidebar:
+
+    st.title("🎬 CineMatch AI")
+
+    st.caption("Hybrid Movie Recommendation")
+
+    st.divider()
+
+    # ---------------- Theme ---------------- #
 
 
+    st.divider()
+
+    st.subheader("👨‍💻 Developer")
+
+    st.write("Arun Kumar")
+
+    st.divider()
+
+    st.subheader("🛠 Tech Stack")
+
+    st.write("🐍 Python")
+    st.write("📊 Pandas")
+    st.write("🤖 Scikit-Learn")
+    st.write("🎬 TMDB API")
+    st.write("🌐 Streamlit")
+
+    st.divider()
+
+    st.info(
+        "Choose a movie and click **Recommend** to discover similar movies."
+    )
 
 st.markdown("""
 <div style='text-align:center;'>

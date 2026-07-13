@@ -1,152 +1,113 @@
-# 🎬 CineMatch AI - Hybrid Movie Recommendation System
+<div align="center">
 
-## 📌 Project Overview
+# 🎬 CineMatch AI
 
-CineMatch AI is a Hybrid Movie Recommendation System that recommends movies using both Content-Based Filtering and Collaborative Filtering.
+### Hybrid Movie Recommendation System
 
-The application combines the strengths of both recommendation techniques to provide accurate and personalized movie recommendations.
+Discover your next favourite movie using Machine Learning.
 
-The project is built using Machine Learning, Python, Streamlit, and the TMDB API.
+Content-Based Filtering • Collaborative Filtering • TMDB API • Streamlit
 
 ---
 
-## 🚀 Features
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
+
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?style=for-the-badge&logo=pandas)
+
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikit-learn)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit)
+
+![TMDB](https://img.shields.io/badge/TMDB-API-blue?style=for-the-badge)
+
+</div>
+
+---
+
+# 📖 Overview
+
+CineMatch AI is a Hybrid Movie Recommendation System that combines **Content-Based Filtering** and **Collaborative Filtering** to provide highly relevant movie recommendations.
+
+Movie information including posters, ratings, genres, runtime, release date, overview, and official trailers is fetched using the TMDB API.
+
+---
+
+# ✨ Features
 
 - 🎬 Hybrid Recommendation System
-- 🤖 Content-Based Filtering
-- 👥 Collaborative Filtering
-- ⭐ AI Top Recommendation
-- 🎥 Official Movie Trailer
+- 🤖 AI-Powered Movie Suggestions
+- ⭐ Top AI Recommendation
 - 🖼 Movie Posters
-- ⭐ Movie Ratings
+- ⭐ IMDb Ratings
 - 🎭 Genres
 - 📅 Release Date
 - ⏱ Runtime
-- 📖 Movie Overview
+- 📖 Story Overview
+- ▶ Official Trailer
 - 🔢 Select 5 / 10 / 15 Recommendations
-- 🌙 Beautiful Dark UI
-- ⚡ Fast Recommendation Engine
+- 🌐 Interactive Streamlit Web App
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Scikit-Learn
 - Streamlit
-- Requests
 - TMDB API
+- Pickle
 
 ---
 
-## 🧠 Machine Learning Techniques
+# 📂 Project Structure
 
-### Content-Based Filtering
-
-Movies are recommended based on:
-
-- Genres
-- Keywords
-- Cast
-- Crew
-- Overview
-
-using Cosine Similarity.
-
----
-
-### Collaborative Filtering
-
-Recommendations are generated based on user rating patterns from the MovieLens dataset.
-
----
-
-### Hybrid Recommendation
-
-Final recommendation score:
-
-60% Content-Based
-
-+
-
-40% Collaborative Filtering
-
-This improves recommendation quality.
-
----
-
-## 📂 Project Structure
-
-```
+```text
 Hybrid_Movie_Recommendation_System/
 
 │── app.py
 │── recommender.py
 │── requirements.txt
 │── README.md
-│── .gitignore
 
-├── models/
-├── data/
-├── notebooks/
-├── screenshots/
+│── models/
+│── notebooks/
+│── data/
+
 ```
 
 ---
 
-## 📊 Dataset
-
-- TMDB 5000 Movies Dataset
-- TMDB 5000 Credits Dataset
-- MovieLens Ratings Dataset
-
----
-
-## ▶️ How to Run
-
-Clone the repository
+# 🚀 Installation
 
 ```bash
-git clone <your-github-link>
-```
+git clone https://github.com/Arun-Code932/Hybrid_Movie_Recommendation_System.git
 
-Install dependencies
+cd Hybrid_Movie_Recommendation_System
 
-```bash
 pip install -r requirements.txt
-```
 
-Run the application
-
-```bash
 streamlit run app.py
 ```
 
 ---
 
-## 📸 Screenshots
+# 📊 Recommendation Techniques
 
-(Add screenshots here after uploading them.)
-
----
-
-## 🔮 Future Improvements
-
-- User Login
-- Search History
-- Movie Backdrop Banner
-- Personalized Recommendations
-- Cloud Deployment
-- User Rating System
+- Content-Based Filtering
+- Collaborative Filtering
+- Cosine Similarity
+- Hybrid Recommendation
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 **Arun Kumar**
 
 Machine Learning Enthusiast
 
-Built using ❤️ with Python, Machine Learning and Streamlit.
+---
+
+⭐ If you like this project, don't forget to Star the repository.

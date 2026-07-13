@@ -1,7 +1,10 @@
 import pickle
 import requests
 import re
+import os
 
+from dotenv import load_dotenv
+load_dotenv()
 movies = pickle.load(
     open("/100_Days_of_ml/Hybrid_Movie_Recommendation_System/models/movies.pkl","rb")
 )
@@ -18,7 +21,7 @@ movie_mapping = pickle.load(
     open("/100_Days_of_ml/Hybrid_Movie_Recommendation_System/models/movie_mapping.pkl","rb")
 )
 
-API_KEY = "a3643d1c3066cafb6a657e12f56d9f64"
+API_KEY = os.getenv("TMDB_API_KEY")
 
 def clean_title(title):
 

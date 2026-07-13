@@ -1,6 +1,6 @@
 ## 🌐 Live Demo
 
-🔗https://hybridmovierecommendationsystem-hhrtwftyyvmnew7bycezad.streamlit.app/
+https://hybridmovierecommendationsystem-hhrtwftyyvmnew7bycezad.streamlit.app/
 
 <div align="center">
 

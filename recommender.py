@@ -1,7 +1,14 @@
+import os
+if (
+    not os.path.exists("models/similarity.pkl")
+    or
+    not os.path.exists("models/collaborative_similarity.pkl")
+):
+    import download_models
+    
 import pickle
 import requests
 import re
-import os
 
 from dotenv import load_dotenv
 load_dotenv()

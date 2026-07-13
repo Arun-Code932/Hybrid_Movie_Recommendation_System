@@ -1,3 +1,10 @@
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# large models
 models/similarity.pkl
 models/collaborative_similarity.pkl
-.env

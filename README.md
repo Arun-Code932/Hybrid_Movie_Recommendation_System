@@ -65,17 +65,13 @@ The project is built with **Python**, **Scikit-Learn**, and **Streamlit** to pro
 
 ## 🏠 Home Page
 
-```
 ![Home Page](ScreenShots/Homepage.PNG)
-```
 
 ---
 
 ## 🎯 AI Recommendations
 
-```
 ![Recommendations](ScreenShots/recommendations.png)
-```
 
 ## 🎬 Multiple Recommendations
 

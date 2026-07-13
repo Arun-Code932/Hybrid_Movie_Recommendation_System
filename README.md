@@ -65,40 +65,35 @@ The project is built with **Python**, **Scikit-Learn**, and **Streamlit** to pro
 
 ## 🏠 Home Page
 
-> Add screenshot here
-
 ```
-screenshots/home.png
+ScreenShots/Homepage.PNG
 ```
 
 ---
 
 ## 🎯 AI Recommendations
 
-> Add screenshot here
-
 ```
-screenshots/recommendations.png
+ScreenShots/recommendations.png
 ```
 
+##   Multiple Recommendations 
+---
+ScreenShots/Multiple_Recomendation.png
 ---
 
 ## 🎬 Movie Card
 
-> Add screenshot here
-
 ```
-screenshots/movie_card.png
+ScreenShots/movie_card.png
 ```
 
 ---
 
 ## 📖 Story Overview
 
-> Add screenshot here
-
 ```
-screenshots/overview.png
+ScreenShots/overview.png
 ```
 
 ---
